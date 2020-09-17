@@ -2,9 +2,14 @@
 <html style="height: 100%;">
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-base64@3.5.2/base64.min.js"></script>
   </head>
-  <body style="background: #555; margin: 0; min-height: 100vh; display: flex; align-items: stretch;">
-    <div contenteditable="true" style="min-width: 600px; max-width: 900px; width: 50% ;margin: 0 auto; background: #eee; padding: 30px; font-size: 17px; letter-spacing: 2px; line-height: 26px; font-family: 'Roboto', arial, sans-serif;">
+  <body>
+    <div class="container">
+      <div><button>copy link</button><input type="text"></input></div>
+      <div class="content" contenteditable="true"></div>
     </div>
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
